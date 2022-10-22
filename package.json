@@ -6,7 +6,7 @@
   "scripts": {
     "tsc": "del -f build && tsc",
     "ts": "del -f build && tsc -w",
-    "dev": "nodemon ./build/src/setterGetter.js"
+    "dev": "nodemon ./build/src/staticMethodSataicProperty.js"
   },
   "repository": {
     "type": "git",
