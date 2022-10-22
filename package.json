@@ -1,0 +1,25 @@
+{
+  "name": "oop-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "del -f build && tsc",
+    "ts": "del -f build && tsc -w",
+    "dev": "nodemon ./build/src/setterGetter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jafarammer/oop-TS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jafarammer/oop-TS/issues"
+  },
+  "homepage": "https://github.com/Jafarammer/oop-TS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
